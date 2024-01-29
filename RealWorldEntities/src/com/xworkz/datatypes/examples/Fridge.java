@@ -1,0 +1,178 @@
+package com.xworkz.datatypes.examples;
+
+public class Fridge {
+    
+	public String brandName;
+	public String color;
+	public String material;
+	public int capacity;
+	public String type;
+	public int height;
+	public int weight;
+	public int price;
+	public int energyEfficiency;
+	public int PowerConsumption;
+	public int tempratureControl;
+	public String coolingSystem;
+	public boolean climateClass;
+	public String noiseLevel;
+	public String doorHinge;
+	public int numberOfDoors;
+	public String doorDesign;
+	public boolean havingDoorAlaram;
+	public String interiorLightingMode;
+	public int numberOfshevles;
+	public String shelfMaterial;
+	public boolean isItHasACrisperDrawers;
+	public boolean isItHaveATempratureZone;
+	public String iceMakeres;
+	public int freezerShelves;
+	public int freezerCapacity;
+	public int freshFoodCapacity;
+	public String waterDispenser;
+	public boolean isItHaveChildLock;
+	public String filtrationSystem;
+	public String smartConnectivity;
+	public boolean isItTouchControl;
+	public boolean isItHasAdjusetableFeet;
+	public boolean isItAFastFreez;
+	public String shelfType;
+	public int freezerDrawer;
+	public boolean isItHasAAirPurification;
+	public boolean isItAMultiAirFlowSystem;
+	public boolean isItHasAQuickCool;
+	public boolean willIteAlertAPowerFailur;
+	public boolean isItStabilizerFree;
+	public String riversibleDoor;
+	public String vacationMode;
+	public boolean isItHasOpenDoorAlaram;
+	public String configuration;
+	public boolean isItHasShelfclose;
+	public boolean isItHaveAGlassDoor;
+	public boolean isItconvertableFromFreezerToRefrigerator;
+	public boolean isItAdjustableDoorBins;
+	public int dairyCompartment;
+	public int eggTray;
+	public int wineRack;
+	public boolean isItTouchScreendisplay;
+	public int doorStorage;
+	public boolean isItTopFrezer;
+	public boolean isItBotomFrezer;
+	public String doorFinish;
+	public String doorSwingSide;
+	public String selfClosingDoors;
+	public boolean haveATemperatureMemory;
+	public String adjustableCrisperHumidity;
+	public boolean isItHaveAFreezerTemperatureIndicator;
+	public boolean isIthaveARefrigeratorTemperatureIndicator;
+	public int beverageChillerCompartment;
+	public boolean autoDefrostFreezer;
+	public int doorRackGallonStorage;
+	public boolean isItHavingAfingerprintResistance;
+	public String openDrawerAlert;
+	public String airTightCrisper;
+	public boolean isItAVisibleHiddenHinges;
+	public boolean isItAAdjustableSplitShelves;
+	public boolean itItAdjustableFreezerBins;
+	public String freezerLight;
+	public String refrigeratorLight;
+	public boolean isItHavingDoorBaskets;
+	public int liftUpShelf;
+	public int warranty;
+	public float dimensions;
+	public String paymentType;
+	public int numberOfClosedRacks;
+	
+	
+	public void displayFridgeDetails()
+	{
+		
+		System.out.println("fridge brandName:"+brandName);
+		System.out.println("fridge color:"+color);
+		System.out.println("fridge material:"+material);
+		System.out.println("fridge capacity:"+capacity);
+	    System.out.println("fridge type:"+type);
+		System.out.println("fridge height:"+height);
+		System.out.println("fridge weight:"+weight);
+		System.out.println("fridge price:"+price);
+		System.out.println("energyEfficiency:"+energyEfficiency);
+	    System.out.println("PowerConsumption:"+PowerConsumption);
+		System.out.println("tempratureControl:"+tempratureControl);
+	    System.out.println("fridge coolingSystem:"+coolingSystem);
+		System.out.println("fridge climateClass:"+climateClass);
+		System.out.println("fridge noiseLevel:"+ noiseLevel);
+		System.out.println("fridge doorHinge:"+doorHinge);
+		System.out.println("fridge numberOfDoors:"+numberOfDoors);
+		System.out.println("fridge doorDesign:"+doorDesign);
+	    System.out.println("fridge havingDoorAlaram:"+havingDoorAlaram);
+		System.out.println("interiorLightingMode:"+interiorLightingMode);
+		System.out.println("numberOfshevles:"+numberOfshevles);
+		System.out.println("fridge shelfMaterial:"+shelfMaterial);
+		System.out.println("fridge isItHasACrisperDrawers:"+isItHasACrisperDrawers);
+	    System.out.println("fridge isItHaveATempratureZone:"+isItHaveATempratureZone);
+		System.out.println("fridge is iceMakeres:"+iceMakeres);
+		System.out.println("freezerShelves:"+freezerShelves);
+		System.out.println("freezerCapacity:"+freezerCapacity);
+		System.out.println("freshFoodCapacity:"+freshFoodCapacity);
+		System.out.println("waterDispenser:"+waterDispenser);
+		System.out.println("isItHaveChildLock:"+isItHaveChildLock);
+		System.out.println("filtrationSystem:"+filtrationSystem);
+		System.out.println("smartConnectivity:"+smartConnectivity);
+		System.out.println("isItTouchControl:"+isItTouchControl);
+		System.out.println("isItHasAdjusetableFeet:"+isItHasAdjusetableFeet);
+		System.out.println("isItAFastFreez:"+isItAFastFreez);
+		System.out.println("shelfType:"+shelfType);
+		System.out.println("freezerDrawer:"+freezerDrawer);
+		System.out.println("isItHasAAirPurification:"+isItHasAAirPurification);
+		System.out.println("isItAMultiAirFlowSystem:"+isItAMultiAirFlowSystem);
+		System.out.println("isItHasAQuickCool:"+isItHasAQuickCool);
+		System.out.println("willIteAlertAPowerFailur:"+willIteAlertAPowerFailur);
+		System.out.println("isItStabilizerFree:"+isItStabilizerFree);
+		System.out.println("riversibleDoor:"+riversibleDoor);
+		System.out.println("vacationMode:"+vacationMode);
+		System.out.println("isItHasOpenDoorAlaram:"+isItHasOpenDoorAlaram);
+		System.out.println("configuration:"+configuration);
+		System.out.println("isItHasShelfclose:"+isItHasShelfclose);
+		System.out.println("isItHaveAGlassDoor:"+isItHaveAGlassDoor);
+		System.out.println("isItconvertableFromFreezerToRefrigerator:"+isItconvertableFromFreezerToRefrigerator);
+		System.out.println("isItAdjustableDoorBins:"+isItAdjustableDoorBins);
+		System.out.println("dairyCompartment:"+dairyCompartment);
+		System.out.println("eggTray:"+eggTray);
+		System.out.println("wineRack:"+wineRack);
+		System.out.println("isItTouchScreendisplay:"+isItTouchScreendisplay);
+		System.out.println("doorStorage:"+doorStorage);
+	    System.out.println("isItTopFrezer:"+isItTopFrezer);
+		System.out.println("isItBotomFrezer:"+isItBotomFrezer);
+		System.out.println("doorFinish:"+doorFinish);
+		System.out.println("doorSwingSide:"+doorSwingSide);
+		System.out.println("selfClosingDoors:"+selfClosingDoors);
+		System.out.println("haveATemperatureMemory:"+haveATemperatureMemory);
+		System.out.println("adjustableCrisperHumidity:"+adjustableCrisperHumidity);
+		System.out.println("isItHaveAFreezerTemperatureIndicator:"+isItHaveAFreezerTemperatureIndicator);
+		System.out.println("isIthaveARefrigeratorTemperatureIndicator:"+isIthaveARefrigeratorTemperatureIndicator);
+		System.out.println("beverageChillerCompartment:"+beverageChillerCompartment);
+		System.out.println("autoDefrostFreezer:"+autoDefrostFreezer);
+	    System.out.println("doorRackGallonStorage:"+doorRackGallonStorage);
+		System.out.println("isItHavingAfingerprintResistance:"+isItHavingAfingerprintResistance);
+		System.out.println("openDrawerAlert:"+openDrawerAlert);
+		System.out.println("airTightCrisper:"+airTightCrisper);
+	    System.out.println("isItAVisibleHiddenHinges:"+isItAVisibleHiddenHinges);
+		System.out.println("isItAAdjustableSplitShelves:"+isItAAdjustableSplitShelves);
+	    System.out.println("itItAdjustableFreezerBins:"+itItAdjustableFreezerBins);
+		System.out.println("freezerLight:"+freezerLight);
+	    System.out.println("refrigeratorLight:"+refrigeratorLight);
+		System.out.println("isItHavingDoorBaskets:"+isItHavingDoorBaskets);
+	    System.out.println("liftUpShelf:"+liftUpShelf);
+	    System.out.println("warranty:"+warranty);
+		System.out.println("dimensions:"+dimensions);
+		System.out.println("paymentType:"+paymentType);
+		System.out.println("numberOfClosedRacks:"+numberOfClosedRacks);
+		
+	}
+	
+	public Fridge()
+	 {
+		 System.out.println("running Fridge properties");
+		 
+	 }
+}

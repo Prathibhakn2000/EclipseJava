@@ -1,0 +1,178 @@
+package com.xworkz.datatypes.examples;
+
+public class Clip {
+	
+	public String color;
+	 public String brand;
+	 public int size;
+	 public String shape;
+	 public String clipOccasion;
+	 public String theme;
+	 public String embellishmentFeature;
+	 public String stoneType;
+	 public String stoneShape;
+	 public String type;
+	 public int numberOfStones;
+	 public String clipMaterial;
+	 public boolean isItNewArrivals;
+	 public String platedMetalType;
+	 public String clipMetal;
+	 public String recommendedUsesForProduct;
+	 public String occasion;
+	 public String style;
+	 public String hairType;
+	 public float netQuantity;
+	 public int numberOfItems;
+	 public int numberOfPieces;
+	 public int itemWeight;
+	 public String regionOfOrigin;
+	 public boolean isItEasyToUse;
+	 public boolean isItGripControl;
+	 public boolean itsHavingFrench;
+	 public boolean isItspringCover;
+	 public boolean isItWaterproof;
+	 public int packageContent;
+	 public String careInstructions;
+	 public boolean isItSnagging;
+	 public String modelName;
+	 public String finish;
+	 public boolean isItFoldable;
+	 public int modelNo;
+	 public int clipWeight;
+	 public int cliplength;
+	 public String manufacturer;
+	 public String department ; 
+	 public int ItemPartNumber;
+	 public boolean itIsAvailableOnline;
+	 public boolean isItGoodQuality;
+	 public boolean isItHavingBun;
+	 public String usage;
+	 public String closureMechanism;
+	 public String maintenanceInstructions;
+	 public boolean  isWaterResistant;
+	 public String functionality;
+	 public String adjustability;
+	 public String heatResistance;
+	 public String stylingVersatility;
+	 public String antiSlip;
+	 public String specialFeatures;
+	 public boolean isItRecyclability;
+	 public String foldability;
+	 public String customization;
+	 public String packagingType;
+	 public String smoothEdges;
+	 public String multiColor;
+	 public String pattern;
+	 public String texture;
+	 public  int durability;
+	 public boolean hypoallergenic;
+	 public String ecoFriendly;
+	 public boolean isItwaterResistant;
+	 public int  invented;
+	 public int startedYear;
+	 public String nameOfInvented;
+	 public String placeOfInvented;
+	 public String firstClipName;
+	 public boolean isItkeepHairOutOfTheEyes;
+	 public boolean itIsCalledBarrette;
+	 public int noOfHairClipsInPacket;
+	 public boolean offlineAvailability;
+	 public boolean isItJewellery;
+	 public boolean isItHoldingHair;
+	 public String affordability;
+	 public boolean isItTrendy ;
+	 public	String regionalCraftTechniques;
+	 
+	 
+	 public void displayClipDetails()
+	 {
+		 System.out.println("clip color:"+color);
+		 System.out.println("clip brand:"+brand);
+		 System.out.println("clip size:"+size);
+		 System.out.println("clip shape:"+shape);
+		 System.out.println("clip Occasion:"+clipOccasion);
+		 System.out.println("clip theme:"+theme);
+		 System.out.println("clip embellishmentFeature:"+embellishmentFeature);
+		 System.out.println("clip stoneType:"+stoneType);
+		 System.out.println("clip stoneShape:"+stoneShape);
+		 System.out.println("clip type:"+type);
+		 System.out.println("clip numberOfStones:"+numberOfStones);
+	     System.out.println("clip clipMaterial:"+clipMaterial);
+	     System.out.println("clip isItNewArrivals:"+isItNewArrivals);
+	     System.out.println("clip platedMetalType:"+platedMetalType);
+	     System.out.println("clipMetal:"+clipMetal);
+	     System.out.println("clip recommendedUsesForProduct:"+recommendedUsesForProduct);
+	     System.out.println("clip occasion:"+occasion);
+	     System.out.println("clip style:"+style);
+	     System.out.println("clip hairType:"+hairType);
+	     System.out.println("clip netQuantity:"+netQuantity);
+		 System.out.println("clip numberOfItems:"+numberOfItems);
+	     System.out.println("clip numberOfPieces:"+numberOfPieces);
+	     System.out.println("clip itemWeight:"+itemWeight);
+	     System.out.println("clip regionOfOrigin:"+regionOfOrigin);
+	     System.out.println("clip isItEasyToUse:"+isItEasyToUse);
+	     System.out.println("clip isItGripControl:"+isItGripControl);
+	     System.out.println("clip itsHavingFrench:"+itsHavingFrench);
+	     System.out.println("clip isItspringCover:"+isItspringCover);
+	     System.out.println("clip isItWaterproof:"+isItWaterproof);
+	     System.out.println("clip packageContent:"+packageContent);
+	     System.out.println("clip careInstructions:"+careInstructions);
+	     System.out.println("clip isItSnagging:"+isItSnagging);
+	     System.out.println("clip modelName:"+modelName);
+	     System.out.println("clip finish:"+finish);
+	     System.out.println("clip isItFoldable:"+isItFoldable);
+	     System.out.println("clip modelNo:"+ modelNo);
+	     System.out.println("clip clipWeight:"+clipWeight);
+	     System.out.println("clip cliplength:"+cliplength);
+	     System.out.println("clip manufacturer:"+manufacturer);
+	     System.out.println("clip department:"+department);
+	     System.out.println("clip ItemPartNumber:"+ItemPartNumber);
+	     System.out.println("clip itIsAvailableOnline:"+itIsAvailableOnline);
+	     System.out.println("clip isItGoodQuality:"+isItGoodQuality);
+	     System.out.println("clip isItHavingBun:"+isItHavingBun);
+	     System.out.println("clip usage:"+usage);
+	     System.out.println("clip  closureMechanism:"+closureMechanism);
+	     System.out.println("clip maintenanceInstructions:"+maintenanceInstructions);
+	     System.out.println("clip isWaterResistant:"+isWaterResistant);
+	     System.out.println("clip functionality:"+functionality);
+	     System.out.println("clip adjustability:"+adjustability);
+	     System.out.println("clip heatResistance:"+heatResistance);
+	     System.out.println("clip stylingVersatility:"+stylingVersatility);
+	     System.out.println("clip antiSlip:"+antiSlip);
+	     System.out.println("clip specialFeatures:"+specialFeatures);
+	     System.out.println("clip isItRecyclability:");
+	     System.out.println("clip foldability:"+foldability);
+	     System.out.println("clip customization:"+customization);
+	     System.out.println("clip packagingType:"+packagingType);
+	     System.out.println("clip smoothEdges:"+smoothEdges);
+	     System.out.println("clip multiColor:"+multiColor);
+	     System.out.println("clip pattern:"+pattern);
+	     System.out.println("clip texture:"+texture);
+	     System.out.println("clip durability:"+durability);
+	     System.out.println("clip hypoallergenic:"+hypoallergenic);
+	     System.out.println("clip ecoFriendly:"+ecoFriendly);
+	     System.out.println("clip isItwaterResistant:"+isItwaterResistant);
+	     System.out.println("clip invented:"+invented);
+	     System.out.println("clip startedYear:"+startedYear);
+	     System.out.println("clip nameOfInvented:"+nameOfInvented);
+	     System.out.println("clip placeOfInvented:"+placeOfInvented);
+	     System.out.println("clip firstClipName:"+firstClipName);
+	     System.out.println("clip isItkeepHairOutOfTheEyes:"+isItkeepHairOutOfTheEyes);
+	     System.out.println("clip itIsCalledBarrette:"+itIsCalledBarrette);
+	     System.out.println("clip noOfHairClipsInPacket:"+noOfHairClipsInPacket);
+	     System.out.println("clip offlineAvailability:"+offlineAvailability);
+	     System.out.println("clip isItJewellery:"+isItJewellery);
+	     System.out.println("clip isItHoldingHair:"+isItHoldingHair);
+	     System.out.println("clip affordability:"+ affordability);
+	     System.out.println("clip isItTrendy:"+isItTrendy);
+	     System.out.println("clip regionalCraftTechniques:"+regionalCraftTechniques);
+	          
+	 }
+
+	 
+	 public Clip()
+	 {
+		 System.out.println("running clip properties");
+	 }
+
+}
