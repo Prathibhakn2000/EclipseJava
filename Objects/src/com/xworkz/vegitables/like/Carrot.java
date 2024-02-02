@@ -1,6 +1,6 @@
 package com.xworkz.vegitables.like;
 
-public class Carrot {
+public class Carrot extends Beans {
 	
 	String type;
 	int price;

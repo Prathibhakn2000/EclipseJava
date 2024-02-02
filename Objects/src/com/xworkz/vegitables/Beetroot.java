@@ -2,7 +2,7 @@ package com.xworkz.vegitables;
 
 import com.xworkz.vegitables.like.Beans;
 
-public class Beetroot {
+public class Beetroot extends Beans{
 	
 	String color;
 	String size;

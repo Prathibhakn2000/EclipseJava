@@ -1,6 +1,6 @@
 package com.xworkz.vegitables.like;
 
-public class BigButterfly {
+public class BigButterfly extends Butterfly {
 	
 	int height;
 	int age;

@@ -1,7 +1,7 @@
 package com.xworkz.fruits;
 import com.xworkz.fruits.like.Chain;
 
-class SilverChain {
+class SilverChain extends Chain {
 	
 	String color;
 	String design;

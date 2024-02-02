@@ -2,7 +2,7 @@ package com.xworkz.vegitables;
 
 import com.xworkz.vegitables.like.Sparrow;
 
-public class Pigeon {
+public class Pigeon extends Sparrow {
 	
 	String color;
 	int lifeSpan;
