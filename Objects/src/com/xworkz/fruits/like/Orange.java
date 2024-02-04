@@ -1,10 +1,10 @@
 package com.xworkz.fruits.like;
 
-public class Orange extends Apple {
+public class Orange extends Fruit {
 	
-	public String shape;
-    public int price;
+	 String shape;
+     int price;
 	
-	Apple apple = new Apple();
+	Fruit fruit = new Fruit();
 
 }

@@ -1,12 +1,14 @@
 package com.xworkz.fruits;
 
-import com.xworkz.fruits.like.Apple;
+import com.xworkz.fruits.like.Fruit;
 
-public class Grapes extends Apple {
+public class Grapes extends Fruit {
 	
-	public String taste;
-	public String type;
-	public Apple apple;
+	 String taste;
+	 String type;
+	 Fruit fruit;
+	 
+	 Fruit fruit1 = new Fruit();
 	
  
 }
