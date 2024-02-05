@@ -1,6 +1,6 @@
 package com.xworkz.vegetables.like;
 
-public class CollegeBag extends Bag{
+public class CollegeBag extends Bag+{
    
    int watternty;
    int length;
