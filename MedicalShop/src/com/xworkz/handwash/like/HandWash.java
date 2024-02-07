@@ -5,7 +5,7 @@ public class HandWash {
      
      public void clean() 
      {
-    	 System.out.println("running clean in handwash");
+    	 System.out.println(" running clean in handwash");
      }
 	
  

@@ -5,7 +5,7 @@ public class Sanitizer extends HandWash {
 	
 	public void disinfect()
 	{
-		System.out.println("running disinfect in sanitizer");
+		System.out.println(" running disinfect in sanitizer");
 	}
 
 }

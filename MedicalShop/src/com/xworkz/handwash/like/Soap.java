@@ -5,7 +5,7 @@ public class Soap extends HandWash{
 	
 	public void foam()
 	{
-		System.out.println("running form in soap");
+		System.out.println(" running form in soap");
 	}
 
 }
