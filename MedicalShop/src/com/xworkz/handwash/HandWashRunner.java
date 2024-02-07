@@ -17,10 +17,12 @@ public class HandWashRunner {
 		handwash.clean();
 		
 		
+		
 		System.out.println("___________________________");
 		
 		
 		Sanitizer handwash1 = new Sanitizer();
+		
 		road.runHandWash(handwash1);
 		System.out.println(handwash1.quality);
 		handwash1.disinfect();
@@ -35,6 +37,7 @@ public class HandWashRunner {
 		handwash2.foam();
 		System.out.println(handwash2.aroma);
 		handwash2.clean();
+		
 		
 		
 		System.out.println("___________________________");

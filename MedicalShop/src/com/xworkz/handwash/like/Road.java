@@ -20,6 +20,9 @@ public class Road {
 			Soap soap =(Soap)handwash;
 			System.out.print(soap.price);
 			soap.foam();
+			
+			
+			
 		  }
 
 	         if(handwash instanceof Lux)
@@ -28,6 +31,8 @@ public class Road {
 			System.out.println(lux.manifactringYear);
 			lux.makeYoung();
 		  }
+	         
+	         
 	}
 
 }
