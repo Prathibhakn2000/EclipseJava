@@ -6,7 +6,7 @@ public class Lux extends Soap{
 	
 	public void makeYoung()
 	{
-		System.out.println(", running makeyoung in lux");
+		System.out.println("running makeyoung in lux");
 	}
 
 }
