@@ -1,0 +1,50 @@
+package com.xworkz.education.like;
+
+
+public class Gadgets {
+	
+	public void work(Object object) throws InterruptedException 
+	{
+	    object.equals(object);
+		object.getClass();
+		object.hashCode();
+		object.notify();
+		object.notifyAll();
+		object.toString();
+		object.wait();
+		object.wait(0);
+		object.wait(0, 0);
+		
+		
+	if(object instanceof Camera)
+		{
+			Camera camera = (Camera)object;
+		    System.out.println(camera.brandName);
+		    camera.capturePhotos();
+		}
+	
+	if(object instanceof SmartCamera)
+	{
+		SmartCamera smartcam = (SmartCamera)object;
+	    System.out.println(smartcam.price);
+	    smartcam.recordVideo();
+	}
+	
+	if(object instanceof BoxCamera)
+	{
+		BoxCamera boxcam = (BoxCamera)object;
+	    System.out.println(boxcam.speed);
+	    boxcam.focusControl();
+	}
+	
+	if(object instanceof CCTVBoxCamera)
+	{
+		CCTVBoxCamera cctvboxcam = (CCTVBoxCamera)object;
+	    System.out.println(cctvboxcam.type);
+	    cctvboxcam.record();
+	}
+	}
+
+	
+
+}
