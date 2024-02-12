@@ -8,11 +8,11 @@ public class TableRunner {
 		Table table = new Table();
 		table.support();
 		System.out.println(table);
-		System.out.println(table.hashCode());
+		System.out.println("hashCode:"+table.hashCode());
 	    table.material="plastic";
 	    table.weight=30;
 	    System.out.println(table);
-		System.out.println(table.hashCode());
+		System.out.println("hashCode:"+table.hashCode());
 	    
 	}
 
