@@ -11,8 +11,18 @@ public class Camera extends Object{
 	
 	
 		
+	
+	@Override	
+	public Object clone()throws CloneNotSupportedException
+    {
+		return null;
+		
+    }
+	@Override
+	public void finalize()throws Throwable 
+	{
 	}
 
 	
-
+}
 

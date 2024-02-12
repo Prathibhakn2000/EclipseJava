@@ -12,15 +12,15 @@ public class CameraRunner {
 		
 		Gadgets gadget = new Gadgets();
 		Object object = new Object();
-		//gadget.work(object);
+		gadget.work(object);
 		
 		
 		System.out.println("====================================");
 		
 		Camera camera = new Camera();
-		System.out.println(camera.brandName);
-		camera.capturePhotos();
 		gadget.work(camera);
+		
+		
 		
         System.out.println("====================================");
 		

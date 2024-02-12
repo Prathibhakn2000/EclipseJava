@@ -3,17 +3,9 @@ package com.xworkz.education.like;
 
 public class Gadgets {
 	
-	public void work(Object object) throws InterruptedException 
+	public void work(Object object) 
 	{
-	    object.equals(object);
-		object.getClass();
-		object.hashCode();
-		object.notify();
-		object.notifyAll();
-		object.toString();
-		object.wait();
-		object.wait(0);
-		object.wait(0, 0);
+	   
 		
 		
 	if(object instanceof Camera)
