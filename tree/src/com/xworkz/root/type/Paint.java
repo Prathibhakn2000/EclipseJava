@@ -22,7 +22,7 @@ public class Paint {
 	@Override
 	public String toString() {
 		System.out.println("running toString in paint");
-		return "Color:"+this.color+", Price:"+this.price+", Rationg:"+this.rating;
+		return "Color:" +this.color+", Price:" +this.price+", Rationg:" +this.rating;
 	}
 
 }

@@ -10,7 +10,7 @@ public class TableRunner {
 		System.out.println(table);
 		System.out.println("hashCode:"+table.hashCode());
 	    table.material="plastic";
-	    table.weight=30;
+	    table.weight=33;
 	    System.out.println(table);
 		System.out.println("hashCode:"+table.hashCode());
 	    

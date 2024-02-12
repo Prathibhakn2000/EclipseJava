@@ -5,7 +5,7 @@ import com.xworkz.root.type.Paint;
 public class PaintRunner {
 
 	public static void main(String[] args) {
-		Paint paint =new Paint("red",500,4);
+		Paint paint =new Paint("red",500,3);
 		paint.selectColor();
 		System.out.println(paint);
 		System.out.println("hashCode:"+paint.hashCode());

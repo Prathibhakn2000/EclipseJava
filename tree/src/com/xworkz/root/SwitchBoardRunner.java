@@ -9,7 +9,7 @@ public class SwitchBoardRunner {
 		switchBoard.checkLoadStatus();
 		System.out.println(switchBoard);
 		System.out.println("hashCode:"+switchBoard.hashCode());
-		switchBoard.noOfSwitch=6;
+		switchBoard.noOfSwitch=5;
 		switchBoard.powerSupply="current capacity";
 		switchBoard.switchMood="off";
 		System.out.println(switchBoard);

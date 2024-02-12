@@ -13,7 +13,7 @@ public class Table {
 	@Override
 	public String toString() {
 		System.out.println("running toString in table");
-		return "material:"+material+ ", weight:"+weight;
+		return "material:" +material+ ", weight:" +weight;
 	}
 
 }

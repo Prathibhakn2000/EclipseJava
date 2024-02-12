@@ -11,7 +11,7 @@ public class BatteryRunner {
 		System.out.println(battery);
 		System.out.println("hashCode:"+battery.hashCode());
 		battery.brandname="Amaron";
-		battery.capacity=67.9d;
+		battery.capacity=67.3d;
 		battery.color="white";
 		System.out.println(battery);
 		System.out.println("hashCode:"+battery.hashCode());

@@ -16,7 +16,7 @@ public class Colgate {
 	@Override
 	public String toString() {
 		System.out.println("running tostring in colgate");
-		return "manufacturingYear:"+manufacturingYear+ " ,price:"+price+ "flavor:"+flavor;
+		return "manufacturingYear:" +manufacturingYear+ " ,price:" +price+ "flavor:" +flavor;
 	}
 
 }

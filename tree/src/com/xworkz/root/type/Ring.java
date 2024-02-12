@@ -24,7 +24,7 @@ public class Ring {
 	@Override
 	public String toString() {
 		System.out.println("running tostring in ring");
-		return "Type:"+type+ ", Price:"+price+ ", Weight:"+weight;
+		return "Type:" +type+ ", Price:" +price+ ", Weight:" +weight;
 	}
 
 }

@@ -15,7 +15,7 @@ public class SwitchBoard {
 	@Override
 	public String toString() {
 	 System.out.println("running toString in switchboard");
-		return "noOfSwitch:"+noOfSwitch+  ", powerSupply:"+powerSupply+ ", switchMood:"+switchMood;
+		return "noOfSwitch:" +noOfSwitch+  ", powerSupply:" +powerSupply+ ", switchMood:" +switchMood;
 				
 	}
 

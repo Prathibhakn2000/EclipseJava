@@ -12,7 +12,7 @@ public class ColgateRunner {
 		System.out.println("hashCode:"+colgate.hashCode());
 		colgate.flavor="charkol";
 		colgate.manufacturingYear=2021;
-		colgate.price=60;
+		colgate.price=55;
 		System.out.println(colgate);
 		System.out.println("hashCode:"+colgate.hashCode());
 	}

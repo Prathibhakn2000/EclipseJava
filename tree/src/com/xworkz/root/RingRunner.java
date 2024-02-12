@@ -14,7 +14,7 @@ public class RingRunner {
         System.out.println("hashCode:"+ring.hashCode());
         ring.type= "silver";
         ring.price= 2000;
-        ring.weight= 1.3f;
+        ring.weight= 1.4f;
         System.out.println(ring);// implicit invoke toString() and ref
         System.out.println("hashCode:"+ring.hashCode());//explicit invoke hashCode() ->hascode is same for same ref and different ref diffrent nbr
 	}

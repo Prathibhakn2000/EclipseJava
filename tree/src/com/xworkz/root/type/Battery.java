@@ -14,6 +14,6 @@ public class Battery {
 	@Override
 	public String toString() {
 		System.out.println("running tostring in battery");
-		return "Brandname:"+brandname+ " ,capacity:"+capacity+ ", Color:"+color;
+		return "Brandname:" +brandname+ " ,capacity:" +capacity+ ", Color:" +color;
 	}
 }

@@ -14,6 +14,6 @@ public class Tie {
   @Override
 	public String toString() {
 	  System.out.println("running tostring in tie");
-		return "material:"+material+ ", color:"+color+ ", length:"+length;
+		return "material:" +material+ ", color:" +color+ ", length:" +length;
 	}
 }
