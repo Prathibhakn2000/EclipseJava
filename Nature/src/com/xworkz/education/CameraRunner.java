@@ -15,24 +15,24 @@ public class CameraRunner {
 		gadget.work(object);
 		
 		
-		System.out.println("====================================");
+		System.out.println("======================================");
 		
 		Camera camera = new Camera();
 		gadget.work(camera);
 		
 		
 		
-        System.out.println("====================================");
+        System.out.println("======================================");
 		
 		SmartCamera smartcam = new SmartCamera();
 		gadget.work(smartcam);
 		
-        System.out.println("====================================");
+        System.out.println("======================================");
 		
 		BoxCamera boxcam = new BoxCamera();
 		gadget.work(boxcam);
 		
-		System.out.println("====================================");
+		System.out.println("======================================");
 			
 	      CCTVBoxCamera cctvboxcam = new CCTVBoxCamera();
 		  gadget.work(cctvboxcam);

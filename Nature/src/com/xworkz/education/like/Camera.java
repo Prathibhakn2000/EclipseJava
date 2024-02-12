@@ -4,7 +4,7 @@ public class Camera extends Object{
 	
 	public String brandName;
 	
-	public void capturePhotos()
+	public void capturePhoto()
 	{
 		System.out.println("running capturePhotos in Camera");
 	}

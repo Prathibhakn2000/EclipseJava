@@ -12,14 +12,14 @@ public class Gadgets {
 		{
 			Camera camera = (Camera)object;
 		    System.out.println(camera.brandName);
-		    camera.capturePhotos();
+		    camera.capturePhoto();
 		}
 	
 	if(object instanceof SmartCamera)
 	{
 		SmartCamera smartcam = (SmartCamera)object;
 	    System.out.println(smartcam.price);
-	    smartcam.recordVideo();
+	    smartcam.recordVideos();
 	}
 	
 	if(object instanceof BoxCamera)
