@@ -31,6 +31,35 @@ public class NailPolishRunner {
         
         //nailpolish.setMadeIn("Hoskote");
         
+        NailPolish nailpolish1 = new NailPolish();
+		System.out.println(nailpolish1);
+		
+        String val=nailpolish1.getBrand();
+        System.out.println(val);
+        
+
+        String val1=nailpolish1.getColor();
+        System.out.println(val1);
+        
+
+        int val2=nailpolish1.getPrice();
+        System.out.println(val2);
+        
+
+        int val3=nailpolish1.getManifacturingYear();
+        System.out.println(val3);
+        
+        nailpolish1.setMadeIn("Hoskote");
+        String val4=nailpolish1.getMadeIn();
+        System.out.println(val4);
+        System.out.println(nailpolish1);
+        
+        boolean ref=nailpolish.equals(nailpolish1);
+		System.out.println(ref);
+        
+        
+        
+        
        
 	}
 

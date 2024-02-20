@@ -21,6 +21,25 @@ public class CockRunner {
 	System.out.println(cock);
 	
 	
+	Cock cock1= new Cock();
+	System.out.println(cock1);
+	cock1.price=30;
+	cock1.weight=2;
+	cock1.setColor("white");
+	String value=cock1.getColor();
+	System.out.println(value);
+	cock1.setMaterial("Plastic");
+	String value2=cock1.getMaterial();
+	System.out.println(value2);
+	cock1.setMadeIn("India");
+	String value3=cock.getMadeIn();
+	System.out.println(value3);
+	System.out.println(cock1);
+	
+	boolean ref=cock.equals(cock1);
+	System.out.println(ref);
+	
+	
 	
 
 	}

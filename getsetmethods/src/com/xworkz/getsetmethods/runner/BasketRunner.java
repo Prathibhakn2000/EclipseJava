@@ -26,6 +26,32 @@ public class BasketRunner {
 		System.out.println(basket);
 		
 		
+		Basket basket1 = new Basket();
+		System.out.println(basket1);
+		basket1.material="plastic";
+		basket1.setType("carry");
+		String value=basket.getType();
+		System.out.println(value);
+		System.out.println(basket1);
+		
+		basket1.color="green";
+		System.out.println(basket1);
+		
+		basket1.setMadeIn("Hassan");
+		String value2=basket1.getMadeIn();
+		System.out.println(value2);
+		System.out.println(basket1);
+		
+		basket1.setPrice(200);
+		System.out.println(basket1);
+		
+
+		boolean ref=basket.equals(basket1);
+		System.out.println(ref);
+		
+		
+		
+		
 		
 		
 		
