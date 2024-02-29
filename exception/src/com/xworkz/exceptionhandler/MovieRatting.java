@@ -2,7 +2,7 @@ package com.xworkz.exceptionhandler;
 
 public class MovieRatting {
 	
-	public void giveRatting(String rattings) throws RattingException
+	public static void giveRatting(String rattings) throws RattingException
 	{
 		if(rattings.equals("5 stars"))
 		{
@@ -12,12 +12,12 @@ public class MovieRatting {
 		{
 			System.out.println("good");
 		}
-		else if(rattings.equals("3 stars"))
+		 else if(rattings.equals("3 stars"))
 		{
 			System.out.println("average");
 			
 		}
-		else if(rattings.equals("2 stars"))	
+		 else if(rattings.equals("2 stars"))	
 		{
 			System.out.println("poor");
 			throw new RattingException("poor rattings");

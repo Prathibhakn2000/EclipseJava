@@ -17,7 +17,7 @@ public class MovieRattingRunner {
 		System.out.println("Before ratting check");
 		try
 		{
-		ratting.giveRatting("2 stars");
+		MovieRatting.giveRatting("2 stars");
 		System.out.println("After ratting check");
 		
 		System.out.println("before tv check");

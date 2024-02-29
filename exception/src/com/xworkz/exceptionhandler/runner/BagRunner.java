@@ -21,11 +21,13 @@ public class BagRunner {
 			System.out.println("after bag check");
 			
 			System.out.println("before ratting check");
-			ratting.giveRatting("2 stars");
+			
+			MovieRatting.giveRatting("2 stars");
+			
 			System.out.println("after ratting check");
 			
 			System.out.println("before Tv check");
-			tv.buyTV(80000);
+			tv.buyTV(40000);
 			System.out.println("after tv check");
 			
 		} 
