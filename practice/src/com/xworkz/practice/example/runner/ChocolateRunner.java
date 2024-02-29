@@ -4,10 +4,10 @@ import com.xworkz.practice.example.Chocolate;
 
 public class ChocolateRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		Chocolate choco = new Chocolate();
-		choco.taste(good);
+		choco.taste("MilkyBar");
 	}
 
 }

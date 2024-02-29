@@ -11,7 +11,7 @@ public class MovieTicketRunner {
 		{
 		MovieTicket ticket = new MovieTicket();
 		System.out.println("before check");
-		ticket.buyMovieTicket(9000);
+		ticket.buyMovieTicket(900);
 		System.out.println("after check");
 
 	    }

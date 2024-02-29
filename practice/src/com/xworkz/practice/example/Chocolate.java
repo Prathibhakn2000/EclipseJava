@@ -3,20 +3,20 @@ package com.xworkz.practice.example;
 public class Chocolate {
 	 
 	
-	public void taste()
+	public void taste(String name) throws Exception
 	{
 		System.out.println("chocolate gives taste");
 		
 		
 
 
-	if(taste.equals("good"))
+	if(name.equals("DairyMilk"))
 	{
 		System.out.println("DairyMilk gives good taste");
 	}
-	if(choco.equals("bad"))
+	else if(name.equals("MilkyBar"))
 	{
-		System.out.println("MilkyBar gives good taste");
+		System.out.println("MilkyBar gives bad taste");
 		throw new Exception("MilkyBar don't buy");
 	}
 	}
