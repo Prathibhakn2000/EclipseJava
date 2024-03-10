@@ -21,7 +21,7 @@ public class Box {
 		//System.out.println("box information in class" +obj);
 		if(obj!=null && obj instanceof Box)
 		{
-			Box box=(Box)obj;
+			Box box=(Box)obj;//casting
 			if(this.brand.equals(box.brand) && this.color.equals(box.color) && this.shape.equals(box.shape)&& this.price==box.price && (this.material.equals(box.material))) 
 					{
 				      return true;

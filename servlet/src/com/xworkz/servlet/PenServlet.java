@@ -9,9 +9,12 @@ import javax.servlet.http.*;
 @WebServlet(name="penServlet",urlPatterns = "/pen",loadOnStartup = 1)
 public class PenServlet extends HttpServlet {
 	
+	
+	private static final long serialVersionUID = -3149582353730152027L;
+
 	public PenServlet()
 	{
-		System.out.println("no args constructor");
+		System.out.println("no args constructor in pen");
 	}
 	
 	@Override
