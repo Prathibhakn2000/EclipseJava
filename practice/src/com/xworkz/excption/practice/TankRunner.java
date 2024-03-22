@@ -11,12 +11,12 @@ public class TankRunner {
 			System.out.println("after excection");
 		    } 
 		
-		//catch (ArithmeticException e)
-		//{
-		//	System.err.println("handdled exception");
+		catch (ArithmeticException e)
+		{
+		 System.err.println("handdled exception");
 			
 			
-		//}
+		}
 		
 		
 		finally

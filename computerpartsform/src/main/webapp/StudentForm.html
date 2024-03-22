@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<script> 
+
+function studentform()
+{
+	
+	//Student name
+  var stdname = document.getElementById("stud");
+	
+  
+  //custid1.disabled=true;
+  
+		 console.log(stdname);
+		console.log(stdname.value);
+		let submitButton = document.getElementById("submit")
+		 submitButton.disabled = true ;
+		
+		
+	
+		if (stdname.value.length >= 5) 
+		
+		{
+		  
+
+		  //valid message
+		  var errorname = document.getElementById("errorname");
+		  //errorname.innerHTML = " valid Name";
+		  errorname.style.color = "white";
+		  submitButton.disabled = false ;
+		}
+		  else
+				
+			{
+			  console.log("Please enter valid Name");
+
+			  // Display error message
+			  var errorname = document.getElementById("errorname");
+			  errorname.innerHTML = "Please enter valid Name";
+			  errorname.style.color = "white";
+			  submitButton.disabled = true 
+			   
+			}
+		
+		//Student number
+		
+		var stdnumber = document.getElementById("num");
+		  
+		  //custid1.disabled=true;
+		  
+				 console.log(stdnumber);
+				console.log(stdnumber.value);
+				
+				
+				
+			
+				if (stdnumber.value.length >= 3) 
+				
+				{
+				  
+
+				  //valid message
+				  var errornumber = document.getElementById("errornumber");
+				  //errorname.innerHTML = " valid Name";
+				  errornumber.style.color = "white";
+				  submitButton.disabled = false ;
+				}
+				  else
+						
+					{
+					  console.log("Please enter valid Number");
+
+					  // Display error message
+					  var errornumber = document.getElementById("errornumber");
+					  errornumber.innerHTML = "Please enter valid number";
+					  errornumber.style.color = "white";
+					  submitButton.disabled = true 
+					   
+					}
+				
+				
+				//gender
+				
+				 console.log(document.student.gender)
+				   console.log(document.student.gender[0])
+				   console.log(document.student.gender[1])
+				   
+				   
+
+				   
+				   console.log(document.student.gender[0].checked)
+				   console.log(document.student.gender[1].checked)
+				   
+				   
+
+				   if(document.student.gender[0].checked==false && 
+				   document.student.gender[1].checked==false)
+				    
+				    {
+				      console.log("please select gender ")
+				     var errorgender=document.getElementById("errorgender")
+				     
+				     errorgender.innerHTML="please select gender"
+				    	 errorgender.style.color='white'
+				    }
+
+            //Email
+            
+				 var email = document.getElementById("mail");
+				  
+				  //custid1.disabled=true;
+				  
+						 console.log(email);
+						console.log(email.value);
+						
+						
+						
+					
+						if (email.value.length==" ") 
+						
+						{
+						  
+
+						  //valid message
+						  var erroremail = document.getElementById("erroremail");
+						  erroremail.innerHTML = "please enter email ";
+						  erroremail.style.color = "white";
+						  submitButton.disabled = false ;
+						}
+						
+						
+						//college Name
+						
+						
+						var college = document.getElementById("clg");
+		                 console.log(college);
+		                  console.log(college.value);
+
+		                 if(college.value =='') 
+		               {
+		               console.log("please select collegeName");
+
+		               var errorcollege = document.getElementById("errorcollege");
+		               errorcollege.innerHTML = "Please select collegeName";
+		               errorcollege.style.color = "white";
+		                 submitButton.disabled = true ;
+		    
+		          } 
+		                 
+		                 
+		          
+		               //college Name
+							
+							
+							var degree = document.getElementById("degree");
+			                 console.log(degree);
+			                  console.log(degree.value);
+
+			                 if(degree.value =='') 
+			               {
+			               console.log("please select degreeName");
+
+			               var errordegree = document.getElementById("errordegree");
+			               errordegree.innerHTML = "Please select collegeName";
+			               errordegree.style.color = "white";
+			                 submitButton.disabled = true ;
+			    
+			          } 
+			                 
+			          // year
+				
+                     
+							var year = document.getElementById("year");
+			                 console.log(year);
+			                  console.log(year.value);
+
+			                 if(year.value =='') 
+			               {
+			               console.log("please select year");
+
+			               var erroryear = document.getElementById("erroryear");
+			               erroryear.innerHTML = "Please select year";
+			               erroryear.style.color = "white";
+			                 submitButton.disabled = true ;
+
+			               }
+			                 
+			          //confirm
+			          
+			          
+			          var confirm = document.getElementById("checkbox");
+		                  console.log(confirm);
+		                   console.log(confirm.value);
+
+		            if(!confirm.checked) 
+		              {
+		               console.log("please select ");
+
+		           var errorconfirm = document.getElementById("errorconfirm");
+		           errorconfirm.innerHTML = "Please select";
+		           errorconfirm.style.color = "white";
+		             submitButton.disabled = true ;
+		
+		
+		              }
+          
+          }
+
+          
+ </script>
+</head>
+<body>
+<nav class="navbar navbar-dark bg-success">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="index.html"><b>Home</b></a>
+		</div>
+	</div>
+</nav>
+<div class="container mt-5 mb-5 d-flex justify-content-center">
+	<div class="card p-4 bg-success">
+		<div class="card-body">
+
+
+			<h1>Student Registration Form</h1>
+			<form name="student" action="read" method="post">
+				<div>
+					<span id="errorname"></span><br> <b>Student Name</b> <label
+						for="stud" class="form-label"></label> <input type="text"
+						class="form-control" id="stud" name="student" required>
+				</div>
+				<br>
+				<div>
+					<span id="errornumber"></span><br> <b>Student Number</b> <label
+						for="num" class="form-label"></label> <input type="text"
+						class="form-control" id="num" name="studentnum" required>
+				</div>
+				<br>
+				<div>
+					<span id="errorgender"></span> <b>Gender</b>
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="gender"
+							value="Male" id="flexRadioDefault1" required> <label
+							class="form-check-label" for="flexRadioDefault1">Male</label>
+					</div>
+					</div>
+					
+					<div class="form-check">
+						<input class="form-check-input" type="radio" name="gender"
+							value="Female" id="flexRadioDefault2" required> <label
+							class="form-check-label" for="flexRadioDefault2">Female</label>
+					</div>
+					
+					<div>
+						<span id="erroremail"></span><br> <b>Email</b> <label
+							for="mail" class="form-label"></label> <input type="text"
+							class="form-control" id="mail" name="email" required>
+					</div>
+					
+					<div>
+						<span id="errorcollege"></span><br> <b>College Name</b><label
+							for="clg" class="form-label"></label> <select
+							class="form-select custom-select-width" id="clg"
+							name="collegename" aria-label="Select College" required>
+							<option selected value="">please select</option>
+							<option value="BCU">BCU</option>
+							<option value="GFGC Hoskote">GFGC Hoskote</option>
+							<option value="GFGC KRPuram">GFGC KRPuram</option>
+							<option value="REVA">REVA</option>
+
+						</select>
+					</div>
+					<br>
+
+					<div>
+						<span id="errordegree"></span><br> <b>Degree Program</b><label
+							for="degree" class="form-label"></label> <select
+							class="form-select custom-select-width" id="degree"
+							name="degreeprogram" aria-label="Select Degree" required>
+							<option selected value="">please select</option>
+							<option value="BA">BA</option>
+							<option value="BCA">BCA</option>
+							<option value="BCOM">BCOM</option>
+							<option value="BSC">BSC</option>
+
+						</select>
+					</div>
+					<br>
+
+					<div>
+						<span id="erroryear"></span><br> <b>Year Level</b><label
+							for="year" class="form-label"></label> <select
+							class="form-select custom-select-width" id="year"
+							name="yearlevel" aria-label="Select Year" required>
+							<option selected value="">please select</option>
+							<option value="2020">2020</option>
+							<option value="2021">2021</option>
+							<option value="2022">2022</option>
+							<option value="2023">2023</option>
+
+						</select>
+					</div>
+					<br>
+
+					<div class="list-group">
+						<span id="errorconfirm"></span><br> <label for="checkbox"
+							class="list-group-item"> <input name="confirm"
+							class="form-check-input me-1" type="checkbox" id="checkbox"
+							value="" required> Confirm
+						</label>
+					</div>
+					<br>
+					
+					
+					<div>
+						<input type="submit" onclick="studentform()" id="submit"
+							value="Apply" class="text-primary">
+					</div>
+			</form>
+
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -33,7 +33,7 @@ public class ChilliServlet extends HttpServlet{
 		res.setContentType("text/plain");//set the content type
 		
 		PrintWriter writer=res.getWriter();
-		writer.print("this is 1st response text from service");
+		writer.print("this is Chilli 1st response text from service");
 		
 		
 		

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Computer Parts</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<nav class="navbar navbar-dark bg-success">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="index.html"><b>Home</b></a>
+        </div>
+    </div>
+  </nav>
+  <div class="container mt-5 mb-5 d-flex justify-content-center"> 
+  <div class="card p-4 bg-success">
+  <div class="card-body">
+  
+<body > 
+    <div>
+       <h2> Computer Parts Information</h2>
+     </div>
+    
+    <form  action="computerparts" method="post">
+        <div class=" row mb-3">
+           <b>Name</b><label for="name" class="form-label"></label>
+            <select class="form-select custom-select-width" id="name" name="brandname" aria-label="Select Name">
+                <option selected>select</option>
+                <option value="Dell">Dell</option>
+                <option value="HP">HP</option>
+                <option value="Lenovo">Lenovo</option>
+            </select>
+        </div>
+     
+        <div class=" row mb-3">
+           <b> Model </b> <label for="model" class="form-label"></label>
+            <input type="text" class="form-control" id="model" name="model">
+        </div>
+        
+        <div class=" row mb-3">
+           <b>Color</b> <label for="color" class="form-label"></label>
+            <select class="form-select custom-select-width" id="color" name="color" aria-label="Select Color">
+                <option selected>Select</option>
+                <option value="1">black</option>
+                <option value="2">silver</option>
+            </select>
+        </div>
+        
+        <div class=" row mb-3">
+            <b>Type</b><label for="type" class="form-label"></label>
+            <select class="form-select custom-select-width" id="type" name="type" aria-label="Select Type">
+                <option selected>select</option>
+                <option value="Digital">Digital</option>
+                <option value="SuperComputer">SuperComputer</option>
+            </select>
+        </div>
+        
+        <div class=" row mb-3">
+            <b>RAM</b><label for="ram" class="form-label"></label>
+            <select class="form-select custom-select-width" id="type" name="type" aria-label="Select RAM">
+                <option selected>select</option>
+                <option value="8Gb">8Gb</option>
+                <option value="16Gb">16Gb</option>
+                <option value="32Gb">32Gb</option>
+                <option value="64Gb">64Gb</option>
+            </select>
+        </div>
+        
+        <div class=" row mb-3">
+            <b>Hard Disk</b><label for="harddisk" class="form-label"></label>
+            <select class="form-select custom-select-width" id="harddisk" name="harddisk" aria-label="Select Harddisk">
+               <option selected>select</option>
+               <option value="HDD">HDD</option>
+               <option value="SSD">SSD</option>
+         </select>
+        </div>
+        
+        <div class=" row mb-3">
+            <b>Processor</b><label for="processor" class="form-label"></label>
+            <select class="form-select custom-select-width" id="processor" name="processor" aria-label="Select Processor">
+             <option selected>select</option>
+             <option value="i3">i3</option>
+             <option value="i5">i5</option>
+        </select>
+        </div>
+        
+        <div class="row mb-3">
+            <b>Generation</b><label for="generation" class="form-label"></label>
+            <select class="form-select custom-select-width" id="generation" name="generation" aria-label="Select Generation">
+             <option selected>select</option>
+             <option value="first">First</option>
+             <option value="second">Second</option>
+             <option value="third">Third</option>
+             <option value="fourth">Fourth</option>
+        </select>
+        </div>
+        
+        <div class=" row mb-3">
+            <b>Mother Board</b><label for="motherboard" class="form-label"></label>
+            <select class="form-select custom-select-width" id="motherboard" name="motherboard" aria-label="Select Motherboard">
+             <option selected>select</option>
+             <option value="ATX">ATX</option>
+             <option value="BTX">BTX</option>
+             <option value="ITX">ITX</option>
+             <option value="LPX">LPX</option>
+             <option value="Mini ITX">Mini ITX</option>
+             <option value="microAtx">MicroAtx</option>
+        </select>
+        </div>
+        
+        <div class="  row mb-3">
+            <b>Cache Size</b><label for="cachesize" class="form-label"></label>
+            <select class="form-select custom-select-width" id="cachesize" name="cachesize" aria-label="Select Cachesize">
+             <option selected>select</option>
+             <option value="32 bytes">32 bytes</option>
+             <option value="64 bytes">64 bytes</option>
+             <option value="128 bytes">128 bytes</option>
+         </select>
+         </div>
+        
+        <div class=" row mb-3">
+           <b>Cost</b> <label for="cost" class="form-label"></label>
+            <input type="text" class="form-control" id="cost" name="cost">
+        </div>
+        
+        <div class=" row mb-3">
+           <b>Quantity</b> <label for="quantity" class="form-label"></label>
+            <input type="text" class="form-control" id="quantity" name="quantity">
+        </div>
+        
+        <div>
+            <input type="submit" value="Submit" class="text-primary">
+        </div>
+        </form>
+    
+</body>
+</div>
+  </div>
+  </div>
+</html>

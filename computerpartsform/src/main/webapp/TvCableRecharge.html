@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Tv Cable Recharge</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script>
+function formFunction()
+{
+  var custid = document.getElementById("cust");
+  
+  //custid1.disabled=true;
+  
+		 console.log(custid);
+		console.log(custid.value);
+		let submitButton = document.getElementById("submit")
+		 submitButton.disabled = true ;
+		
+		
+	
+		if (custid.value.length == 8) 
+		
+		{
+		  console.log("Valid length");
+
+		  //valid message
+		  var errorcust = document.getElementById("errorcust");
+		  errorcust.innerHTML = "";
+		  errorcust.style.color = "white";
+		  submitButton.disabled = false ;
+		  
+		  
+		  
+		
+		} else
+		
+		{
+		  console.log("Please enter 8 characters");
+
+		  // Display error message
+		  
+		  var errorcust = document.getElementById("errorcust");
+		  errorcust.innerHTML = "Please enter 8 characters";
+		  errorcust.style.color = "white";
+		  submitButton.disabled = true 
+		   
+		}
+		
+		//here write select vendor
+		
+		var vendor = document.getElementById("vendor");
+		console.log(vendor);
+		console.log(vendor.value);
+
+		if(vendor.value =='') 
+		{
+		    console.log("please select Vender");
+
+		    var errorvendor = document.getElementById("errorvendor");
+		    errorvendor.innerHTML = "Please select Vender";
+		    errorvendor.style.color = "white";
+		    submitButton.disabled = true ;
+		    
+		    
+		}
+		
+		
+		//Amount
+	    var amount = document.getElementById("amount");
+		console.log(amount);
+		console.log(amount.value);
+
+		
+		if (amount.value > 10 && amount.value <10000 ) 
+		
+		{
+		  console.log("valid amount ");
+
+		  //valid message
+		  var errorAmount = document.getElementById("erroramount");
+		  errorAmount.innerHTML = "";
+		  errorAmount.style.color = "white";
+		  submitButton.disabled = false ;
+		  
+		 
+		}
+		else
+		
+		{
+		  console.log("Invalid amount");
+
+		  // Display error message
+		  var errorAmount = document.getElementById("erroramount");
+		  errorAmount.innerHTML = "Invalid amount";
+		  errorAmount.style.color = "white";
+		  submitButton.disabled = true ;
+		    
+		}
+
+		
+		//////
+		
+		
+		//for accept
+		
+		var accept = document.getElementById("accept");
+		console.log(accept);
+		console.log(accept.value);
+
+		if(!accept.checked) 
+		{
+		    console.log("please select ");
+
+		    var error = document.getElementById("erroraccept");
+		    error.innerHTML = "Please select";
+		    error.style.color = "white";
+		    submitButton.disabled = true ;
+		    
+		  
+		}
+		 //custid1.disabled=false;
+
+		//submitButton.disabled = !isValid;
+		
+		//for recharge type
+		
+		   console.log(document.recharge.rechargetype)
+		   console.log(document.recharge.rechargetype[0])
+		   console.log(document.recharge.rechargetype[1])
+		   console.log(document.recharge.rechargetype[2])
+		   
+
+		   
+		   console.log(document.recharge.rechargetype[0].checked)
+		   console.log(document.recharge.rechargetype[1].checked)
+		   console.log(document.recharge.rechargetype[2].checked)
+		   
+		   
+
+		   if(document.recharge.rechargetype[0].checked==false && 
+		   document.recharge.rechargetype[1].checked==false &&
+		    document.recharge.rechargetype[2].checked==false)
+			
+		    {
+		      console.log("please select rechargetype ")
+		     var errorrechargetype=document.getElementById("errorrechargetype")
+		     
+		     errorrechargetype.innerHTML="please select rechargetype"
+		     errorrechargetype.style.color='white'
+		    }
+
+
+		
+		
+		
+		}	
+
+</script>
+
+</head>
+<nav class="navbar navbar-dark bg-success">
+  <div class="container-fluid">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="index.html"><b>Home</b></a>
+        </div>
+    </div>
+  </nav>
+  <div class="container mt-5 mb-5 d-flex justify-content-center"> 
+  <div class="card p-4 bg-success">
+  <div class="card-body">
+  <body> 
+
+    <h2> Tv Cable Recharge Information </h2>
+    <form name="recharge" action="tvcablerecharge" method="post">
+        <div>
+        <span id="errorcust"></span><br>
+           <b>Customer Id</b> <label for="cust" class="form-label"></label>
+            <input type="text" class="form-control" id="cust" name="custid" required>
+       </div>
+       <br>
+        <div >
+           <span id="errorvendor"></span><br>
+           <b>Select Vendor</b><label for="vendor" class="form-label"></label>
+            <select class="form-select custom-select-width" id="vendor" name="vendor" aria-label="Select Vendor" >
+                <option selected value="">select</option>
+                <option value="TV Reload">DISH Network</option>
+                <option value="Recharge Tv">Mediacom</option>
+                <option value="Recharge Tv">Cable One</option>
+                
+            </select>
+            </div>
+            <br>
+            
+           <div >
+           <span id="erroramount"></span><br>
+           <b>Recharge Amount</b> <label for="amount" class="form-label"></label>
+            <input type="text" class="form-control" id="amount" name="amount">
+           </div>
+           <br>
+           
+          <div>
+          <span id="errorrechargetype"></span>
+          
+           <b>Recharge Type</b><div class="form-check">
+           <input class="form-check-input" type="radio" name="rechargetype" value="Monthly" id="flexRadioDefault1">
+           <label class="form-check-label" for="flexRadioDefault1" >Monthly </label>
+           </div>
+           <div class="form-check">
+           <input class="form-check-input" type="radio" name="rechargetype"  value="Topup" id="flexRadioDefault2" >
+           <label class="form-check-label" for="flexRadioDefault2" >Topup</label>
+           </div>
+           <div class="form-check">
+           <input class="form-check-input" type="radio" name="rechargetype" value="OTT" id="flexRadioDefault2" >
+           <label class="form-check-label" for="flexRadioDefault2" >OTT</label>
+           </div>
+         
+           
+          
+           
+        
+        <div class="list-group">
+        <span id="erroraccept"></span><br>
+       <label class="list-group-item">
+       <input name="accept"  class="form-check-input me-1" type="checkbox"  id="accept" value=""> 
+       Accept
+       </label>
+       </div>
+       <br>
+      <div>
+            <input type="submit" onclick="formFunction()" id="submit" value="Apply" class="text-primary">
+        </div>
+        <a href="./TvCableRecharge.html" class="text-primary "><input type="button" placeholder="Clear" value="Refresh" ></a>
+        
+  </form> 
+ </body>
+ </div>
+ </div>
+ </div>
+</html>
