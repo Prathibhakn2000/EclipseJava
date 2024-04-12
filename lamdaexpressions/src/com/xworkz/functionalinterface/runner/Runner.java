@@ -76,16 +76,17 @@ public class Runner {
 		 System.out.println("Running in Cow");
 	     return price > 10000 ? true : false ;
 		};
-		cow.isExpensive(100000);
+		boolean price=cow.isExpensive(1000);
+		System.out.println(price);
 		
-		Spoon sp=(w,p)->
+		
+		Spoon sp=(w,p)->w+p; 
 		{
 			System.out.println("Running in Spoon");
 			
-			System.out.println(w);
-			return w;
 		};
-		sp.eat(12, 34);
+		Double spoon=sp.eat(12, 34);
+		System.out.println(spoon);
 		
 
 	}
