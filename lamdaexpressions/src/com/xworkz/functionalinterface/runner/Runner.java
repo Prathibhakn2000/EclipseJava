@@ -27,7 +27,7 @@ public class Runner {
 		};
 		fan.givesAir(5);
 		
-		
+		System.out.println("______________________________________");
 		
 		PhotoFrame photo=(size,prize)->{
 			System.out.println("Running in PhotoFrame");
@@ -36,6 +36,7 @@ public class Runner {
 		
 		};
 		photo.show(4.1,450);
+		System.out.println("______________________________________");
 		
 		Mirror mirror =(p,len,shape)->
 		{
@@ -47,12 +48,15 @@ public class Runner {
 		};
 		
 		mirror.reflectivity(1000, 4.7, "rectangle");
+		System.out.println("______________________________________");
 		
 		NewsPaper paper=()->{
 			System.out.println("Running in NewsPaper");
 			return true;
 		};
-		paper.read();
+		boolean p= paper.read();
+		System.out.println(p);
+		System.out.println("______________________________________");
 		
 		
 		Bulb bulb=()->
@@ -61,15 +65,18 @@ public class Runner {
 			System.out.println("Running in Bulb");
 			return 10;
 		};
-		bulb.brightness();
+		int b=bulb.brightness();
+		System.out.println(b);
+		System.out.println("______________________________________");
 		
 		Bangle bangle=()->
 		{
 		  System.out.println("Running in Bangle");	
-		  return null;
+		  return "blue";
 		};
-		bangle.style();
-		
+		String ba=bangle.style();
+		System.out.println(ba);
+		System.out.println("______________________________________");
 		
 		Cow cow=(price)->
 		{ 
@@ -78,9 +85,9 @@ public class Runner {
 		};
 		boolean price=cow.isExpensive(1000);
 		System.out.println(price);
+		System.out.println("______________________________________");
 		
-		
-		Spoon sp=(w,p)->w+p; 
+		Spoon sp=(w,pr)->w+pr; 
 		{
 			System.out.println("Running in Spoon");
 			
