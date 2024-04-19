@@ -14,6 +14,7 @@ public class ObjIntConsumercheck {
 	{
 		System.out.println("Running play in ObjIntConsumercheck");
 		objintconsumer.accept(125d, 30);
+		
 	}
 
 }
