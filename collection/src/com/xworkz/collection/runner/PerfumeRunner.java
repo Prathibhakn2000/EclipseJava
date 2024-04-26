@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
+import com.xworkz.collection.dto.MarkerDTO;
 import com.xworkz.collection.dto.PerfumeDTO;
 
 public class PerfumeRunner {
@@ -32,6 +33,11 @@ public class PerfumeRunner {
 		collection.add(perfume7);
 		collection.add(perfume8);
 		collection.add(perfume9);
+		
+		 for(PerfumeDTO p1:collection)
+	        {
+	        	System.out.println(p1);
+	        }
 		
 		Iterator<PerfumeDTO> itr=collection.iterator();
 		while(itr.hasNext())
